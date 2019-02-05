@@ -144,3 +144,6 @@ STATICFILES_DIRS = [STATIC_DIR, ]
 
 # Redirected if trying to access restricted view but user its not logged in
 LOGIN_URL = '/rango/login/'
+
+#Browser-length session
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
